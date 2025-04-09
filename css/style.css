@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+header {
+    background: #ff9335;
+    color: rgb(155, 155, 155);
+}
+
+.bg-primary {
+    background-color: #ff9335;
+}
+
+.intro {
+    font-size: 200%;
+}
+
+h4 {
+    font-size: 300%
+}
+
+/* About Me Section */
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Projects Section */
+.card {
+    margin-bottom: 30px;
+}
+
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+}
+  
+  

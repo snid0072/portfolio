@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evan Snider Web Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Snider Designs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to Snider Designs</h1>
+            <p class="lead">Take a look around because I assure you'll see something you like!</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5 bg-info">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <h4 class="fs-1 fs-md-3 fs-lg-3 display-5">Hello! My name is Evan Snider, and I’m currently an IMD student at Algonquin College, where I’m exploring the world of design and development. I have a passion for the simpler things in life—whether it’s enjoying a quiet afternoon, taking a walk in nature, or discovering new hobbies. I believe in cherishing the small, beautiful moments that make life meaningful, and I try to bring that sense of simplicity into my work. I'm always seeking new adventures, whether through learning, exploring unfamiliar places, or meeting new people, and these experiences fuel my creativity.
+
+                        My work reflects my passions, combining technology, design, and creativity to create functional and visually appealing projects. If you enjoy what I create, I hope we can collaborate in the future. I believe that great things happen when like-minded people come together, and I look forward to the possibility of working together to create something amazing!</h4>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/SRS_5812.JPG" class="img-fluid rounded-circle" alt="Your photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 text-white bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-4">My Services and Current Projects</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/try 4.png" class="card-img-top " alt="Project 1">
+                        <div class="card-body bg-info text-dark">
+                            <h5 class="card-title ">Photography</h5>
+                            <p class="card-text">I've always loved taking photos since I was young and over the years I truly believe I've improved so much. Photography is such a beautiful artform so here is some of my work I'm proud of. I hope you enjoy.</p>
+                            <a href="https://snid0072.myportfolio.com" class="btn btn-dark">View Example</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/Screenshot 2025-04-08 225509.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body bg-info text-dark">
+                            <h5 class="card-title">Graphic Design</h5>
+                            <p class="card-text">I love designing stuff digitally because I've always believed you have more customization on a computer. I love creating logos and banners and I hope you'll hire me to make yours.</p>
+                            <a href="https://snid0072.myportfolio.com" class="btn btn-dark">View Example</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/Brovhure.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body bg-info text-dark">
+                            <h5 class="card-title">UX Design</h5>
+                            <p class="card-text">Creating websites and ideas for colour pallets has always been something I've been interested in. Now that I've started doing it and I've gotten pretty good I'm so happy I tried it. Come check out my work.</p>
+                            <a href="https://snid0072.myportfolio.com" class="btn btn-dark">View Example</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-info">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form action="mailto:snid0072@algonquinlive.com" method="post" enctype="text/plain">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Evan Snider. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
